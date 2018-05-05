@@ -25,7 +25,8 @@ module.exports = {
         title: 'Function Modules',
         children: [ /* ... */ ]
       }
-      ]
+      ],
+      '/hcm/': [ '/hcm/infotypes' ]
     }
   }
 }
