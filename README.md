@@ -1,5 +1,3 @@
-# ABAP
+# Learn SAP
 
-```abap
-* This is abap
-```
+To share what we know in SAP.
