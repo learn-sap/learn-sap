@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Learn SAP',
   description: 'Learn SAP',
+  ga : "UA-119284124-1",
   themeConfig: {
     nav: [
       { text: 'ABAP', link: '/abap/' },
