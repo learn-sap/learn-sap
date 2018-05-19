@@ -24,8 +24,15 @@ module.exports = {
       {
         title: 'Function Modules',
         children: [ /* ... */ ]
+      },
+      {
+        title: 'ABAP HR',
+        children: [
+          '/abap/abap-hr/payroll-results.md'
+        ]
       }
       ],
+      
       '/hcm/': [ '/hcm/infotypes' ]
     }
   }
