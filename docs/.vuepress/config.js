@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Learn SAP',
   description: 'Learn SAP',
-  ga : "UA-119284124-1",
+  ga: 'UA-119284124-1',
   themeConfig: {
     nav: [
       { text: 'ABAP', link: '/abap/' },
@@ -25,8 +25,15 @@ module.exports = {
       {
         title: 'Function Modules',
         children: [ /* ... */ ]
+      },
+      {
+        title: 'ABAP HR',
+        children: [
+          '/abap/abap-hr/payroll-results.md'
+        ]
       }
       ],
+      
       '/hcm/': [ '/hcm/infotypes' ]
     }
   }

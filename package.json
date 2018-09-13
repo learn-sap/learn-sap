@@ -1,0 +1,26 @@
+{
+  "name": "learn-sap",
+  "version": "1.0.0",
+  "description": "Learn SAP",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-sap/learn-sap.git"
+  },
+  "keywords": [
+    "vuepress"
+  ],
+  "author": "fareez.ahamed@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-sap/learn-sap/issues"
+  },
+  "homepage": "https://github.com/learn-sap/learn-sap#readme",
+  "dependencies": {
+    "vuepress": "^0.14.2"
+  }
+}
