@@ -19,7 +19,6 @@ module.exports = {
         title: 'Data Dictionary',
         collapsable: true,
         children: [
-          '/abap/search-help.md',
           '/abap/function-modules.md'
         ]
       },
@@ -27,6 +26,13 @@ module.exports = {
         title: 'ABAP HR',
         children: [
           '/abap/abap-hr/payroll-results.md'
+        ]
+      },
+      {
+        title: 'Webdynpro ABAP',
+        children: [
+          '/abap/webdynpro-abap/standard-components.md',
+          '/abap/webdynpro-abap/floor-plans.md'
         ]
       }
       ],
