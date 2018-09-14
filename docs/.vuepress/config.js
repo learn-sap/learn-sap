@@ -4,19 +4,19 @@ module.exports = {
   ga: 'UA-119284124-1',
   themeConfig: {
     nav: [
-      { text: 'ABAP', link: '/abap/' },
-      { text: 'Agentry', link: '/agentry/' },
-      {
-        text: 'Modules',
-        items: [
-          { text: 'FI', link: '/fi/' },
-          { text: 'HCM', link: '/hcm/' }
-        ]
-      }
+      { text: 'ABAP', link: '/abap/' }
+      // { text: 'Agentry', link: '/agentry/' },
+      // {
+      //   text: 'Modules',
+      //   items: [
+      //     { text: 'FI', link: '/fi/' },
+      //     { text: 'HCM', link: '/hcm/' }
+      //   ]
+      // }
     ],
     sidebar: {
       '/abap/': [{
-        title: 'Data Dictionary',
+        title: 'Core ABAP',
         collapsable: true,
         children: [
           '/abap/function-modules.md'
