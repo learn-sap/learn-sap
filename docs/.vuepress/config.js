@@ -19,12 +19,9 @@ module.exports = {
         title: 'Data Dictionary',
         collapsable: true,
         children: [
-          '/abap/search-help.md'
+          '/abap/search-help.md',
+          '/abap/function-modules.md'
         ]
-      },
-      {
-        title: 'Function Modules',
-        children: [ /* ... */ ]
       },
       {
         title: 'ABAP HR',
