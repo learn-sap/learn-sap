@@ -4,7 +4,7 @@
 
 ## General
 
-### Move Negative Sign To The Front
+### Move negative sign to the front
 
 SAP by default shows negative number with minus at the end like `30-`. To change
 it to `-30` we need to use `CLOI_PUT_SIGN_IN_FRONT`. `VALUE` should be of 
@@ -18,7 +18,7 @@ CALL FUNCTION 'CLOI_PUT_SIGN_IN_FRONT'
 
 ## Module Pool
 
-### Set Values To A Dropdown/Listbox
+### Set values to a Dropdown/Listbox
 
 To set values to a Dropdown/Listbox for a Module Pool field or Selection
 Screen field use `VRM_SET_VALUES`.
