@@ -19,7 +19,8 @@ module.exports = {
         title: 'Core ABAP',
         collapsable: true,
         children: [
-          '/abap/function-modules.md'
+          '/abap/function-modules.md',
+          '/abap/standard-text.md'
         ]
       },
       {
