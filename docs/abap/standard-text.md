@@ -4,7 +4,7 @@
 - SO10
 - SE61
 
-## Tables:
+## Tables
 - SXTH
 - SXTL
 - TTXID

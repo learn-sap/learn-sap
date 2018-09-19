@@ -26,6 +26,7 @@ module.exports = {
       {
         title: 'ABAP HR',
         children: [
+          '/abap/abap-hr/infotypes.md',
           '/abap/abap-hr/payroll-results.md'
         ]
       },
