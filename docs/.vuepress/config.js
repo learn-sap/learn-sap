@@ -20,6 +20,7 @@ module.exports = {
         collapsable: true,
         children: [
           '/abap/function-modules.md',
+          '/abap/module-pool.md',
           '/abap/standard-text.md'
         ]
       },
