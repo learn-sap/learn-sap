@@ -48,6 +48,27 @@ into tables of type `DD07V`.
             OTHERS              = 3.
 ```
 
+## File Handling
+
+### Upload File from Presentation Server
+
+### Search Help to Pick file from Presentation Server
+
+### Search Help to Pick file from Application Server
+
+### Get Directory Path from Directory Parameter
+
+```abap
+
+DATA: lv_name TYPE c length 10.
+
+lv_name = 'DIR_TEMP'.
+
+CALL 'C_SAPGPARAM' ID 'NAME'  FIELD lv_name
+                   ID 'VALUE' FIELD lv_path.
+
+```
+
 ## Module Pool
 
 ### Set values to a Dropdown/Listbox
