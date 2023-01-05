@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/learn-sap/learn-sap#readme",
   "dependencies": {
-    "vuepress": "^0.14.2"
+    "vuepress": "^1.9.7"
   }
 }
